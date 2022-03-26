@@ -23,7 +23,7 @@ end
 null_ls.setup({
 	debug = false,
 	sources = {
-		formatting.prettierd,
+		formatting.prettier,
 		formatting.stylua,
 		actions.eslint,
 		-- diagnostics.flake8
